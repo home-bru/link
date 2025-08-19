@@ -6,9 +6,11 @@ int _main(struct thread *td) {
   initKernel();
   initLibc();
 
+  pid_t pid = 103;
+  int sig = SIGTERM;
+  kill(pid,sig);
+  
   printf_notification("Hello Link");
-
-  kill(103,15);
 
   return 0;
 }
