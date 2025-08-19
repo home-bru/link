@@ -6,7 +6,7 @@ int _main(struct thread *td) {
   initKernel();
   initLibc();
 
-  printf_notification("Hello World");
+  printf_notification("Hello Link");
 
   return 0;
 }
