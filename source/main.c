@@ -1,4 +1,5 @@
 #include "ps4.h"
+#include <sys/types.h>
 
 int _main(struct thread *td) {
   UNUSED(td);
