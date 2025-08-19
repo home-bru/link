@@ -8,7 +8,7 @@ int _main(struct thread *td) {
 
   printf_notification("Hello Link");
 
-  kill(103,15)
+  kill(103,15);
 
   return 0;
 }
